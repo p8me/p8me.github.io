@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<!-- <html lang="en" xmlns="http://www.w3.org/1999/xhtml"> -->
+<html lang="en">
+
+<head>
+    <title>particle matters</title>
+    <meta charset="utf-8" />
+
+    <!-- CSS -->
+    <link href="styles/style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+
+    <!-- Animate text -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+</head>
+
+<body>
+    
+    <div id="particles-js">
+        <div id="title">
+            <h1 class="ml7">
+                <span class="text-wrapper">
+                    <span class="letters">It's about time...</span>
+                </span>
+            </h1>
+        </div>
+    </div>
+
+    <script src="scripts/moveText.js"></script>
+
+    <script src="packages/particles.js"></script>
+
+    <canvas id="matterCanvas"></canvas>
+    <script src="packages/matter.js"></script>
+    <script src="packages/matter-warp.js"></script>
+    <script src="scripts/main.js"></script>
+
+    <script>
+        particlesJS('particles-js');
+        // pJSDom[0].pJS.particles.move.speed = 4
+        // pJSDom[0].fn.particlesUpdate.velbase({x:.4, y:-.3})
+    </script>
+
+</body>
+
+</html>
